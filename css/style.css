@@ -455,7 +455,7 @@ flexbox */
 
 	.active{
 		text-transform: uppercase;
-        background-color: grey;
+        background-color: lightslategrey;
 	}
     
 	.galleryflex{
