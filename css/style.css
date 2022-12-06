@@ -51,6 +51,7 @@ footer{
 	grid-column: 1/span all;
 	grid-row: 4/span 1;
 	padding: 30px;
+	background-color: white;
 }
 
 p{
@@ -453,7 +454,7 @@ flexbox */
 	}
 
 	.active{
-		text-transform: uppercase;
+		text-transform: none;
         background-color: lightslategrey;
 	}
     
