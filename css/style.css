@@ -101,24 +101,8 @@ img:hover{
     padding-left: 20px;
 }
 
-/* bkg image */
-/* .resume header{
-    background-attachment: fixed; 
-    background-position: center;  
-    background-repeat: no-repeat; 
-    background-size: cover;       
-    color: white;
-    min-height: 400px;  
-    grid-row: 2 / span 1;
-    grid-column: 1 / span all;
-} */
-/* bkg image */
 
-/* img setting end */
-
-
-
-/* NAV     background-color: whitesmoke; section; */
+/* NAV */
 
 .nav-container{
 	display: flex;
