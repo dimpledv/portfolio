@@ -185,7 +185,6 @@ nav ul li a{
 }
 
 nav :hover{
-	color:lightskyblue;
     text-decoration: underline;
 }
 
