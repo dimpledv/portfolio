@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <link rel="icon" href="images/icon.svg">
+        <script src="https://kit.fontawesome.com/6622f82988.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono&display=swap" rel="stylesheet">
+    	<link rel="stylesheet" href="css/html5reset.css">
+	    <link rel="stylesheet" href="css/style.css">
+        <script src="js/file.js" defer></script>
+	    <title> Projects </title>
+
+    </head>
+
+    <body>
+        <header>
+            <a href="#main" class="skip" >Jump to content</a>
+            <div class="nav-container">
+            <button class="mobile-nav-toggle" expanded="false">
+                <span class="sr-only">Menu</span>
+			</button>
+                <nav>
+                    <ul visible="false">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./resume.html">Resume</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a class="active" href="./projects.html">Projects</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        
+        <main class='container-rest' id='main'>
+        <div class='grid-projects'>
+            <h1> Coursework Projects </h1> 
+            <i class="fa-solid fa-chart-pie rotate"></i>
+            <h2>Interaction Design Project</h2>
+            <p> Designed and developed Braintribe a digital health application, by performing competitive analysis, brainstorming 8 unique
+                solutions, sketching workflow diagrams, developing personas, and mapping stories to miro board. Finalized process design decisions with QOC analysis, created wireframes, and lo-fi prototypes, and completed the A/B
+                testing of the hi-fi prototypes among 50 users in a survey, exploring solutions for edge cases. This application recieved much love from the elderly, and improved their medication adherance by about 45%, found out in a recent survey. </p>
+            <figure>
+			    <img src="images/eldercare.jpg" alt="Eldercare e-pillbox project" width="500">
+		    </figure>
+            <h2>Consulting project</h2>
+            <p>Contextual Inquiry and Consulting Foundation Project , worked as a consultant on medical school meta data management  In a semester long consulting project, utilised user research skills to craft a solution for one of the nations largest Medical schools. Collaborated with a team of six graduate students and conducted semi-structured interviews with eight stakeholders and gathered qualitative data regarding workflow and metadata management issues for a semester-long project. Classified qualitative data with affinity walls using Miro board and presented the recommendations in an organized professional report. </p>
+            <figure>
+			    <img src="images/consulting.jpg" alt="Qualitative data analysis for Consulting project" width="500">
+		    </figure>
+            <h2>VR mini-project on CPR Training</h2>
+            <h3>Problem Statement</h3>
+            <p>There are no fun VR applications that allows people to learn essential skills like CPR, Basic Life Support, and advanced First-Aid and disaster management in a gamified version. About 40% of bystanders witness a Sudden Cardiac Arrest, but the majority of them lack the training needed to provide minimal emergency care, which could also save lives. </p>
+            <h3>Some Features include:</h3>
+            <p>A fun environment to learn with a Genie, Music playing in the background to match your chest compressions to the songs’ beat, Music graph that helps you follow the beat to co-ordinate perfect CPR, Sketching Ideas and Physical Prototype</p>
+            <h3>Design Decisions</h3>
+            <p>Interaction from celebration and confetti was changed to a reward/badge type gamified approach, as during the problem statement it seemed like an interesting idea, during prototyping, it majorly changed the look of the application. I continued to expand on the idea of my initial physical prototype, while modifying some features after iterative design process:</p>
+            <p>I decided to add basic features initially for the mini project - like Genie, checking airflow, grabbing AED and performing CPR. From the 2 graphs of the ideation process, I decided to keep only the music graph and remove the HR graph as that would be confusing for the user. Furthermore, I decided to move the graph, text instruction to the bottom of the screen. </p>
+            <h3>Digital Prototyping in Unreal</h3>
+            <p>I used unreal for developing the prototype, it was relatively easy to find the objects, but adding interactions was challenging. What was particularly interesting was to identify which are the must have components of the template to make some basic interactions happen. In conclusion, I was able to prototype 3 to 5 major interactions and have compiled the majority of them in this video. </p>
+            <h3>Learnings and Future Steps</h3>
+            <p>After adding many objects downloaded from sketchfab, I was still unable to add interactive components to some of elements, which is something I want to learn more in future. Making a list of important actors that are required to function, ex. meshes, player start or VR pawn will be helpful to get the design requirements in order. Lastly, always searching for elements beforehand and only look for .obj or .fbx files will be helpful to save time</p>
+        </div>    
+        </main>
+
+        <footer>
+            <p>Dimple Vaswani &copy; 2022</p>
+        </footer>
+    </body>
+    
+    </html>
