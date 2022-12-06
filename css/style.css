@@ -297,7 +297,7 @@ flexbox */
 /* skip button end*/
 
 
-/* grid on index page   lightslategrey   margin:25px;*/
+/* grid on index page*/
 .intro-container{
     display: grid;
     grid-template-columns: 1fr;
@@ -384,25 +384,7 @@ flexbox */
     text-align: center;
 }
 
-/* 
-@media screen and (max-width: 800px) {
-	.galleryflex {
-	  flex: wrap;
-	  max-width: 80%;
-	}
-  } */
-
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-
-	.galleryflex {
-	  flex: wrap;
-	  max-width: auto;
-	}
-} */
+/* Tablet - Ipad */
 
 @media all and (min-width: 820px){
     img {
@@ -454,7 +436,7 @@ flexbox */
 	}
 
 	.active{
-		text-transform: none;
+		text-transform: uppercase;
         background-color: lightslategrey;
 	}
     
